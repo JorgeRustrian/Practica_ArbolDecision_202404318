@@ -1,9 +1,9 @@
 # decision_tree.py
 import time
 
-UMBRAL = 50  # valor por defecto
 
-def clasificar_numero(numero, umbral=UMBRAL):
+
+def clasificar_numero(numero, umbral):
     """Árbol de decisión de un solo nodo:
        numero >= umbral → Alto
        numero <  umbral → Bajo
@@ -11,7 +11,7 @@ def clasificar_numero(numero, umbral=UMBRAL):
     return "Alto" if numero >= umbral else "Bajo"
 
 
-def ejecutar_arbol(lista_numeros, umbral=UMBRAL):
+def ejecutar_arbol(lista_numeros, umbral):
     """Recibe una lista, clasifica y muestra resultados."""
     
     inicio = time.time()
