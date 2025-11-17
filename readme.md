@@ -69,6 +69,15 @@ Implementar un árbol de decisión simple de un solo nodo capaz de clasificar n�
 
 ![Ejecución](docs/umbral3000.png)
 
+**Ejecuion comando git branch -a**
+
+
+![Ejecución](docs/gitbrancha.png)
+
+**Ejecuion comando git log --oneline --decorate --graph**
+
+
+![Ejecución](docs/gitlog.png)
 
 
 
